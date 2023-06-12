@@ -1,0 +1,373 @@
+/* Everything */
+a {
+    text-decoration: none;
+}
+
+.row {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+/* Navbar */
+nav {
+    margin-right: 50px;
+    background-color: white;
+}
+
+.navbar-logo {
+    width: 100px;
+    margin-left: 50px;
+}
+
+.navbar-button-blue {
+    margin-left: 10px;
+    background-color: #0851F8;
+    color: white;
+    width: 90px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 10px;
+}
+
+.navbar-button-blue:hover {
+    background-color: #7FD125;
+    color: white;
+    border-color: #7FD125;
+}
+
+.navbar-button-white {
+    margin-left: 10px;
+    background-color: white;
+    color: #0851F8;
+    width: 90px;
+    padding-left: 2px;
+    padding-right: 2px;
+    border-radius: 10px;
+}
+
+.navbar-button-white:hover {
+    background-color: #0851F8;
+    color: white;
+}
+
+.navbar-nav {
+    flex-basis: 100%;
+}
+
+.nav-link {
+    border-radius: 15px;
+    padding-left: 100%;
+    padding-right: 100%;
+}
+
+.nav-link:hover {
+    background-color: #0851F8;
+    color: white;
+}
+
+.active-page {
+    background-color: #0851F8;
+    color: white;
+}
+
+.active-page:visited {
+    background-color: #0851F8;
+    color: white;
+}
+
+/* Banner */
+.container {
+    margin-top: 50px;
+}
+
+.banner-container {
+    border-bottom: solid 2px #979797;
+    padding-bottom: 50px;
+}
+
+.banner-txt-lg {
+    font-weight: 700;
+}
+
+.banner-txt-sm {
+    color: #979797;
+    font-weight: 600;
+}
+
+.banner-button-blue {
+    margin-right: 10px;
+    background-color: #0851F8;
+    color: white;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.banner-button-blue:hover {
+    background-color: #7FD125;
+    color: white;
+    border-color: #7FD125;
+}
+
+.banner-button-white {
+    margin-right: 10px;
+    background-color: white;
+    color: #0851F8;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.banner-button-white:hover {
+    background-color: #0851F8;
+    color: white;
+}
+
+a.banner-txt-sm:hover {
+    color: #0851F8;
+}
+
+.banner-dot {
+    color: #0851F8;
+    margin: 0px 10px;
+}
+
+.banner-grid {
+    width: 100%;
+    position: relative;
+    text-align: center;
+}
+
+.banner-grid-shape {
+    width: 100%;
+}
+
+.banner-grid-shape-interior {
+    position: absolute;
+    top: 47%;
+    left: 47%;
+    transform: translate(-50%, -50%);
+    font-size: 0.6vmax;
+}
+
+.banner-grid-icon-white {
+    color: white;
+    margin-bottom: 20px;    
+}
+
+.banner-grid-icon-black {
+    color: black;
+    margin-bottom: 20px;
+}
+
+/* Body */
+
+.main-row {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.align-middle {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.body-grid {
+    width: 40%;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-grid-large {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.body-grid-shape {
+    width: 100%;
+}
+
+.body-grid-image {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.body-grid-shape-interior {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.75vmax;
+}
+
+.body-grid-shape-interior-big {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1.75vmax;
+}
+
+.body-grid-icon-white {
+    color: white;
+    margin-bottom: 20px;    
+}
+
+.body-grid-icon-black {
+    color: black;
+    margin-bottom: 20px;
+}
+
+.body-grid-icon-blue {
+    color: #0851F8;
+    margin-bottom: 20px;
+}
+
+.body-row {
+    border: solid #979797 3px;
+    border-radius: 20px;
+    margin-bottom: 50px;
+}
+
+.body-col {
+    border-left: solid #979797 3px;
+    background-color: #0851F8;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    color: white;
+    padding: 50px;
+    padding-right: 15%;
+}
+
+.body-button-blue {
+    margin-right: 10px;
+    background-color: #0851F8;
+    color: white;
+    border: solid white 3px;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.body-button-blue:hover {
+    background-color: #7FD125;
+    color: white;
+    border-color: white;
+}
+
+/* Footer */
+footer {
+    padding-top: 25px;
+    padding-bottom: 50px;
+    background-color: #0851F8;
+    color: white;
+    margin: 0;
+}
+
+.footer-button-green {
+    margin-right: 25px;
+    background-color: #7FD125;
+    color: white;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.footer-button-green:hover {
+    background-color: white;
+    color: black;
+    border-color: white;
+}
+
+.footer-button-white {
+    margin-right: 10px;
+    background-color: white;
+    color: #0851F8;
+    font-weight: 700;
+    padding: 10px 25px;
+    border-radius: 10px;
+}
+
+.footer-button-white:hover {
+    background-color: #7FD125;
+    color: white;
+}
+
+.footer-dot {
+    color: white;
+    margin: 0px 10px;
+}
+
+/* Sign Up and Sign In */
+.sign-up-image {
+    width: 100%;
+}
+
+.half-screen {
+    height: 50vh;
+}
+
+.align-middle {
+    margin-top: 25vh;
+    margin-bottom: 25vh;
+}
+
+.sign-up-input {
+    border-radius: 20px;
+}
+
+.sign-up-button-blue {
+    background-color: #0851F8;
+    color: white;
+    font-weight: 700;
+    padding: 5px 25px;
+    border-radius: 25px;
+    width: 7.5vw;
+}
+
+.sign-up-button-blue:hover {
+    background-color: #7FD125;
+    color: white;
+    border-color: #7FD125;
+}
+
+.sign-up-icons {
+    width: 3vmax;
+    height: 3vmax;
+}
+
+.sign-in-image {
+    position: absolute;
+    width: 20vmax;
+    height: 20vmax;
+    left: 14%;
+    top: 48%;
+    z-index: 1;
+}
+
+.sign-in-image-background {
+    width: 50vw;
+    height: 142vh;
+}
+
+.fullpage {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+.flex-no-wrap {
+    flex-wrap: nowrap;
+}
+
+.flex {
+    flex-grow: 0;
+    flex-shrink: 0;
+    flex-basis: 50%;
+}
