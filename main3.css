@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 2px dashed black;
+    width: auto;
+    height: 2100px;
+}
+.navbar{
+    border: 2px solid red;
+    width: auto;
+    height: 40px;
+    display:flex;
+    
+}
+.box {
+    border: 2px dashed purple;
+    width:160px;
+    height: 40px;
+    margin-left: 60px;
+    padding:7px;
+    padding-left: 60px; 
+    display: flex;
+}
+.box-1 {
+    border: 2px dashed yellowgreen;
+    width: 800px;
+    margin-left: 250px;
+    padding: 6px;
+    display: flex;
+    justify-content: space-around;
+}    
+.box-2{
+    border: 2px dashed blue;
+    width: 300px;
+    margin-left: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.container-2 {
+    border: 2px dashed orange;
+    width: auto;
+    height: 340px;
+}
+.container-3 {
+    border: 2px dashed green;
+    width: auto;
+    height: 20px;
+    padding: 7px;
+}
+.psep {
+    width: auto;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+.container-4 {
+    border: 2px solid black;
+    width: auto;
+    height: 350px;
+}
+.box-2b { 
+    border: 2px solid sienna;
+    width: auto;
+    height: 300px;
+    margin: 22px 450px 22px 450px;
+    padding-top: 20px;
+    text-align: center;
+}
+.box-2c {
+    border: 2px solid lightslategray;
+    width: auto;
+    height: 170px;
+    margin: 10px 175px;
+} 
+.container-5 {
+    border: 2px solid blue;
+    width: auto;
+    height: 560px;
+}
+.box-2d {
+    border: 2px solid greenyellow;
+    border-radius: 25px;
+    width: auto;
+    height: 450px;
+    margin: 40px 450px 22px 450px;
+    padding-top: 20px;
+    text-align: center;
+}
+.container-6 {
+    border: 2px solid fuchsia;
+    width: auto;
+    height: 560px;
+}
+.box-2f { 
+    border: 2px solid greenyellow;
+    border-radius: 25px;
+    width: auto;
+    height: 450px;
+    margin: 40px 450px 22px 450px;
+    padding-top: 20px;
+    text-align: center;
+}
+.footer-1 {
+    border: 2px dashed rgb(165, 105, 105);
+    width: auto;
+    height: 233px;
+}
